@@ -1,5 +1,5 @@
 # GraphQL Tutorial
-The repository hosts the code base for my [GraphQL](https://graphql.org/) tutorial. Follow along or skip parts by switching branches.
+The repository hosts the code base for my [GraphQL](https://graphql.org/) tutorial, using [Apollo](https://www.apollographql.com/). Follow along or skip parts by switching branches.
 
 I created a tutorial for learning GraphQL, since I had a difficult time finding a good guide in teaching about the technology. My personal goal was not only to learn GraphQL, but to set up the basic structure of a back-end server with [JWT](https://jwt.io/) authentication. 
 
