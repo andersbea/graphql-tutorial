@@ -4,7 +4,7 @@ export const Author = {
     typeDefs: gql`
         type Author {
             name: String
-            books: [Book]
         }
-    `
+    `,
+    resolvers: {}
 }

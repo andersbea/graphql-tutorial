@@ -11,5 +11,11 @@ export const Book = {
             books: [Book]
             book(id: ID!): Book
         }
-    `
+    `,
+    resolvers: {
+        Query: {
+            books: (parent, args, { dataSources }, info) => dataSources.memory.getAllBooks(),
+            book: (parent, { id }, { dataSources }, info) => dataSources.memory.getBook(id)
+        }
+    }
 }
